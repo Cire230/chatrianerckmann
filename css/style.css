@@ -607,8 +607,7 @@ body {
     }
 
     .about {
-        padding-top: 10rem;
-        padding-left: 5%;
+        padding : 6%;
     }
 
     .about .text-container-about span {
@@ -622,8 +621,12 @@ body {
 
 @media (max-width: 576px) {
     .navbar a {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-left: 2rem;
+    }
+
+    .navbar a:first-child {
+        margin-left: 0;
     }
 
     .navbar a:last-child {
@@ -646,6 +649,19 @@ body {
 
     .btn-group a:last-child {
         display: flex;
+    }
+
+    .about .adress {
+        padding-top: 39px;
+        padding-left: 0;
+    }
+
+    .about .adress p {
+        text-align: left;
+    }
+
+    .about .adress p span {
+        padding: 0;
     }
 
     .about .text-container-about p {
